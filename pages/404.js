@@ -13,7 +13,7 @@ export default function Custom404() {
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
             <button className="w-1/2 h-12 px-6 text-black transition-colors duration-150 bg-white rounded-lg focus:shadow-outline">
                 <div>
-                    <a href="http://localhost:3000/">Back to Home</a>
+                    <a href="process.env.PAGE_URL">Back to Home</a>
                 </div>
             </button>
             </div>
