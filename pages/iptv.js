@@ -22,6 +22,16 @@ export default function Iptv() {
                     IPTV!
                 </a>
                 </h1>
+
+                <p className="mt-5 text-2xl text-gray-400">
+                    Saluran IPTV berbasis Web.
+                </p>
+
+                <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+                    <p className="font-bold py-5 px-12 sm:text-lg md:text-lg lg:text-3xl xl:text-5xl rounded-xl bg-blue-600">
+                        https://haafidz.xyz/api/iptv.m3u8
+                    </p>
+                </div>
             </main>
 
             <Footer />
