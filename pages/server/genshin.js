@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import ThemeSwitch from '../.././components/ThemeSwitch'
 import Footer from '../../components/Footer'
+import Waktu from '../../components/Waktu'
 
 
 export default function Iptv() {
@@ -22,6 +23,12 @@ export default function Iptv() {
                     Genshin!
                 </a>
                 </h1>
+
+                <h1 className="text-6xl font-bold mt-5">
+                    Waktu Lokal
+                    <Waktu />
+                </h1>
+                    
             </main>
 
             <Footer />
