@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import BdayTimer from '../components/BdayTimer'
 import Footer from '../components/Footer'
 import ThemeSwitch from './../components/ThemeSwitch'
 
@@ -32,6 +33,7 @@ export default function Bday() {
                         Localtime.
                         </p>
                     </a> */}
+                    <BdayTimer />
 
                 </div>
             </main>
